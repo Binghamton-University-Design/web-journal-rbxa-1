@@ -4,14 +4,36 @@ body {
 	margin: 20px;
 	font-family: 'Newsreader', serif;
 	font-weight: 300;
-	background-color: #FA96C1;
-	color: white;
+	background-color: #f7f7f2;
+	color: #261c15;
 }
 
 h1 {
 	font-weight: 800;
+	font-size: 96pt;
+	margin: 0px;
+	color: #c5d86d;
+}
+
+h2 {
+	color: #f05d23;
+	font-weight: 800;
+	font-size: 28pt;
+	margin: 0px;
+	font-style: italic;
+}
+
+h3 {
+	color: #f7f7f2;
 }
 
 p {
-	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+}
+
+div {
+	background: #e4e6c3;
+	margin: 2em;
+	padding: 2em;
 }
