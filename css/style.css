@@ -61,6 +61,11 @@ p {
 	padding: 2em;
 }
 
+#logo a {
+	text-decoration: none;
+	color: #bbaa8c;
+}
+
 #logo img {
 	width: 80%;
 	height: auto;
@@ -69,6 +74,25 @@ p {
 #content {
 	background: #F4F5F6;
 	padding: 2em;
+}
+
+#projects img {
+	width: 100%;
+	height: auto;
+}
+
+#nav a {
+	color: #9b99ad;
+	text-decoration: none;
+	transition: background .3s ease-in-out;
+	font-weight: 500;
+}
+
+#nav a:hover {
+	color: #9b99ad;
+	text-decoration: none;
+	background: #fbfae0;
+
 }
 
 @media (max-width: 699px) {
