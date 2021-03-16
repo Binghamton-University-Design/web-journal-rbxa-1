@@ -95,6 +95,42 @@ p {
 
 }
 
+#project-grid {
+	margin-bottom: 2em;
+}
+
+#project-grid .grid-item {
+	position: relative;
+}
+
+#project-grid .grid-item img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#project-grid .grid-item .overlay {
+	transition: all .3s ease-in-out;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#project-grid .grid-item:hover .overlay {
+	opacity: 1;
+}
+
+#project-grid .grid-item .overlay .project-title h3 {
+
+}
+
 @media (max-width: 699px) {
 	
 	#wrapper {
