@@ -47,6 +47,7 @@ p {
 	font-weight: 400;
 	font-size: 12pt;
 }
+
 #wrapper {
 	margin: 2em auto;
 	max-width: 1200px;
@@ -92,7 +93,6 @@ p {
 	color: #9b99ad;
 	text-decoration: none;
 	background: #fbfae0;
-
 }
 
 #project-grid {
@@ -130,6 +130,40 @@ p {
 #project-grid .grid-item .overlay .project-title h3 {
 
 }
+
+#exquisite {
+	position: relative;
+	margin-bottom: 2em;
+}
+
+#exquisite .grid {
+	grid-gap: 0;
+}
+
+#exquisite .grid img {
+	margin-bottom: 0;
+	width: 100%;
+	height: auto;
+}
+
+/*
+#exquisite {
+	position: relative;
+}
+
+#exquisite .grid {
+	grid-gap: 0px;
+	margin: 0;
+}
+
+#exquisite .grid img {
+	margin-bottom: 0;
+	margin-top: 0;
+	width: 100%;
+	height: auto;
+}
+
+*/
 
 @media (max-width: 699px) {
 	
