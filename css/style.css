@@ -146,6 +146,54 @@ p {
 	height: auto;
 }
 
+.item span {
+	font-weight: 800;
+	font-family: 'Newsreader';
+	display: block;
+	float: right;
+	width: 50%;
+}
+
+.item .flex-version {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item .flex-left {
+	background: green;
+}
+
+.item .flex-right {
+	background: red;
+}
+
+#topnav ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+	display: flex;
+}
+
+#topnav li {
+	margin-right: 2em;
+	margin-bottom: 0;
+}
+
+.big-box {
+	background: blue;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.little-box {
+	background: orange;
+	width: 20px;
+	height: 20px;
+}
+
 /*
 #exquisite {
 	position: relative;
