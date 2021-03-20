@@ -40,12 +40,21 @@ h2 {
 
 h3 {
 	color: #D3D7D9;
+	margin: 15px;
 }
 
 p {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400;
 	font-size: 12pt;
+	margin: 15px;
+}
+
+ul {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+	margin: 15px;
 }
 
 #wrapper {
